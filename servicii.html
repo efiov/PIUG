@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabinet Pediatrie</title>
+    <meta name="author" content="Stefan Ion-Viorel" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> CC </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Acasa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="servicii.html">Servicii</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="despre.html">Despre noi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="Cautare"
+              id="search"
+            />
+            <button class="btn btn-dark" type="button" id="search-button">
+              Cauta
+            </button>
+          </div>
+          <div class="social">
+            <a href="help.html">
+              <i class="bi bi-question-circle"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+      <h2>Serviciile Centrului de Pediatrie Casiane</h2>
+      <div id="accordion" class="container mt-4">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s1">
+              Pediatrie generala
+            </a>
+          </div>
+
+          <div id="s1" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Test rapid virus gripal</td>
+                    <td>20 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Test glicemie</td>
+                    <td>20 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Vaccin</td>
+                    <td>30 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Injectie subcutanată</td>
+                    <td>25 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Injectie intramusculară</td>
+                    <td>25 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Consultatie la cabinet</td>
+                    <td>240 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Consultatie la domiciliu</td>
+                    <td>280 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Test alergie</td>
+                    <td>300 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s2">
+              Cardiologie
+            </a>
+          </div>
+
+          <div id="s2" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Ecografgie de cord</td>
+                    <td>180 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Monitorizare holter EKG</td>
+                    <td>250 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Monitorizare holter Tensiune</td>
+                    <td>150 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s3">
+              Consultatie de alaptare si diversificare
+            </a>
+          </div>
+
+          <div id="s3" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Consultatie de alaptare</td>
+                    <td>240 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Consultatie privind diversificarea</td>
+                    <td>240 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s4">
+              Servicii ORL
+            </a>
+          </div>
+
+          <div id="s4" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Consultatie</td>
+                    <td>250 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Aspiratie otica</td>
+                    <td>50 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Extracție dop cerumen - unilaterala</td>
+                    <td>50 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Frenotomie linguala</td>
+                    <td>250 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s5"> Chirurgie </a>
+          </div>
+
+          <div id="s5" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Consultatie la cabinet</td>
+                    <td>250 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s6"> Ecografii </a>
+          </div>
+
+          <div id="s6" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Ecografie de parti moi</td>
+                    <td>250 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Ecografie de sold</td>
+                    <td>220 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Ecografie abdominala</td>
+                    <td>250 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">
+                      Consultatie pediatrie + ecografie toracica
+                    </td>
+                    <td>350 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s7">
+              Gastroenterologie
+            </a>
+          </div>
+
+          <div id="s7" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Consultatie la cabinet</td>
+                    <td>250 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s8"> Ortopedie </a>
+          </div>
+
+          <div id="s8" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Consultatie la cabinet</td>
+                    <td>250 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#s9">
+              Dermatologie
+            </a>
+          </div>
+
+          <div id="s9" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td scope="row">Consultatie la cabinet</td>
+                    <td>250 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Dermatoscopie</td>
+                    <td>50 lei</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Moluscum</td>
+                    <td>50 lei</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- buton top -->
+    <button class="btn btn-primary" id="top-btn">Sus</button>
+
+    <div class="mt-5 p-4 bg-light text-dark text-center">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Acasa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicii.html">Servicii</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="despre.html">Despre noi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <p>Stefan Ion-Viorel</p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <script src="cautare.js"></script>
+  </body>
+</html>
